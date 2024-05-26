@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+header {
+    background-color: #1c1c1c;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header .logo {
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.search-bar {
+    margin-right: 20px;
+}
+
+.search-bar input {
+    padding: 5px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    background-color: #e50914;
+    border: none;
+    color: white;
+}
+
+.hero {
+    background: url('hero-game.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.btn {
+    background-color: #e50914;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.carousel {
+    padding: 20px;
+    text-align: center;
+}
+
+.carousel-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 10px;
+}
+
+.carousel-item {
+    flex: 0 0 auto;
+    background-color: #2c2c2c;
+    padding: 15px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.products {
+    padding: 20px;
+    text-align: center;
+    background-color: #1e1e1e;
+}
+
+.products h2 {
+    margin-bottom: 20px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-item {
+    background-color: #2c2c2c;
+    padding: 15px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+.product-item img {
+    max-width: 100%;
+    border-bottom: 1px solid #444;
+    margin-bottom: 10px;
+}
+
+.reviews {
+    padding: 20px;
+    text-align: center;
+    background-color: #1e1e1e;
+}
+
+.reviews .review-item {
+    margin-bottom: 10px;
+}
+
+.newsletter {
+    padding: 20px;
+    text-align: center;
+    background-color: #1e1e1e;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.newsletter input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: #e50914;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #1c1c1c;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
